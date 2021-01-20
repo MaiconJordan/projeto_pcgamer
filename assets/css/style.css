@@ -16,6 +16,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
+
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
@@ -479,11 +482,25 @@ section .container {
   background: rgba(255, 255, 255, 0.15);
 }
 
-.skills .progress-bar {
+.skills .progress-bar{
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #18d26e;
+  background-color: #47aeff;
+}
+
+.skills #hardbar {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color:  #e361ff;
+}
+
+.skills #acessbar {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color:  #e80368;
 }
 
 /*--------------------------------------------------------------
