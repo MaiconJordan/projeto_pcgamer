@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
-#header .social-links a {
+#header .social-links  a {
   font-size: 16px;
   display: flex;
   justify-content: center;
@@ -126,8 +126,20 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
 }
 
-#header .social-links a:hover {
-  background: #9900ff;
+
+#header  .social-links a.twitter:hover {
+  background: #30bdff7e;
+}
+
+#header  .social-links a.facebook:hover {
+  background: #1f77eb6b;
+}
+#header  .social-links a.instagram:hover {
+  background: #b265e66e;
+}
+
+#header  .social-links a.linkedin:hover {
+  background: #067aff69;
 }
 
 @media (max-width: 992px) {
